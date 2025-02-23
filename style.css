@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(./images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .todo-container {
+    position: relative;
+    border: 1px solid #9ca5be;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    max-width: 80%;
+    max-height: 80%;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 600px;
+    width: 800px;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+  }
+  
+  label {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #996092;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #996092;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #632e5d;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  ul {
+    height: 200px;
+    padding: 10px;
+  }
+  
+  ul li {
+    background: #c492ba;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #c492ba;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  ul li:hover {
+    background-color: #483a4c;
+    color: white;
+  }
+  
+  #counts {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #206e32;
+  }
+  
+  .edit-btn,
+  .delete-btn,
+  .check-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #c29d2d;
+    color: white;
+  }
+  .edit-btn:hover {
+    background-color: #66531b;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .check-btn {
+    background-color: #2f9948;
+    color: white;
+  }
+  .check-btn:hover {
+    background-color: #135f25;
+  }
+  
+  .check-btn.unchecked {
+    background-color: #2476ce;
+  }
+  .check-btn.unchecked:hover {
+    background-color: #204368;
+  }
+  
