@@ -40,13 +40,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```
-  git@github.com:etharalrehaili/todo.git
+  git clone https://github.com/etharalrehaili/todo.git
 ```
 
 2. Navigate into the project directory:
 
 ```
-  cd todo-app
+  cd todo
 ```
 
 3. Open the `index.html` file in your browser.
