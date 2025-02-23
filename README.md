@@ -30,7 +30,7 @@ The application includes the following features:
 ### Screenshot 📸
 Here’s a preview of how the Todo App looks:
 
-![image](https://github.com/user-attachments/assets/dfd61a26-ffe3-487f-84a2-0bcf39f5b211)
+![Screenshot](screenshot.png)
 
 
 ### Installation 🚀
