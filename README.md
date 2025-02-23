@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```
-  git@github.com:etharalrehaili/sda-3-online-javascript-todo-app.git
+  git@github.com:etharalrehaili/todo.git
 ```
 
 2. Navigate into the project directory:
