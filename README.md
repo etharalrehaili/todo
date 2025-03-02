@@ -54,6 +54,8 @@ To run this project locally, follow these steps:
 
 ### Live App 🚀
 
+You can access app here:
+
 [Todo App - Live
 ](https://main.d25qu4t6ct8vpo.amplifyapp.com/)
 
