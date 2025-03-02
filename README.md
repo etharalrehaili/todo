@@ -52,3 +52,8 @@ To run this project locally, follow these steps:
 3. Open the `index.html` file in your browser.
 
 
+### Live App 🚀
+
+[Todo App - Live
+](https://main.d25qu4t6ct8vpo.amplifyapp.com/)
+
